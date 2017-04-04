@@ -22,5 +22,5 @@ from charms.reactive import when_not, set_state
 
 @when_not('snappy-m-o.installed')
 def install_snappy_m_o():
-    subprocess.check_call(['snap', 'install', 'snappy-m-o'])
+    subprocess.check_call(['snap', 'install', 'snappy-m-o', '--edge'])
     set_state('snappy-m-o.installed')
