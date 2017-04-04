@@ -1,0 +1,8 @@
+name: snappy-m-o-charm
+summary: Juju charm for the snappy bot
+maintainer: Leo Arias <yo@elopio.net>
+description: |
+  This charm installs the machine with the snappy bot.
+tags:
+  - misc
+series: [xenial]
